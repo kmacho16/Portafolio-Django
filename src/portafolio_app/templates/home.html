@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+</head>
+<body>
+	<h1>Bienvenido a mi Home</h1>
+	{{ miEmpresa.get.nombre }} <br>
+	{{ miEmpresa.get.slogan }} <br>
+	{{ miEmpresa.get.saludo }} <br>
+	<img src="{{ MEDIA_URL }}{{ miEmpresa.get.logo }}" alt=""> 
+</body>
+</html>
